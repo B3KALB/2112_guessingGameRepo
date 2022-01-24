@@ -1,26 +1,17 @@
-// function that goes 1-100 and grabbs a random index
-//that takes in an argument
-        // <= 5 times
-// compares argument to random index
-    //if < index
-       // return "higher"
-    //else if > index
-       //return "lower"
-    //else
-       //return
-    //"YOU WIN!!!!!!!"
-   
 
-    // create a variable that holds your targetValue
-    function getTargetValue(max) {
-        return Math.floor(Math.random() * 100);
+ // create a variable that holds your targetValue
+function getTargetValue(max) {
+    return Math.floor(Math.random() * 100);
       }
+      docuement.getElementById ("input-block");
+      docuement.getElementById ("styled");
+docuement.getElementById ("reset");
       //console.log(getTargetValue());
 // create a variable that will hold the userGuess
-    let userGuess = "input-block";
-    var count = 5;
+let userGuess = "input-block";
+var count = 5;
 // create a function that comparesValues the targetValue to userGuess
-      function comparesValues (getTargetValue, userGuess){
+function comparesValues (getTargetValue, userGuess){
           // if "===" display the user wins
           if (getTargetValue === userGuess) {
             return "YOU WIN!!!!!!";
