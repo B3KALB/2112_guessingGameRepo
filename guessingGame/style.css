@@ -1,11 +1,11 @@
 
-body{
+body {
     margin: 0;
     font-family:'Courier New', Courier, monospace;
     background-color: teal;
 }
 
-header{
+h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -16,19 +16,16 @@ header{
     text-shadow: 2px 2px 2px rebeccapurple;
 }
 
-.content {
+#content {
     display: flex;
     flex-direction: column;
     align-items:center;
 }
 
-.submit-button {
+#submitButton {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.styled {
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -43,19 +40,23 @@ header{
                 inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
-.styled:hover {
+#styled {
+    
+}
+
+#submitButton:hover {
     background-color: blueviolet;
 }
 
-.styled:active {
+#submitButton:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
 
-.guesses {
+#pastUserList {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: black;
     outline: limegreen solid 6px;
     text-shadow: gray 4px 2px;
@@ -66,12 +67,12 @@ header{
     padding: 10vw;
     border-radius: 45%;
 }
-.idGuess {
+#guesses {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.guessnum {
+#guessNum {
     width: 15vw;
     height: 15vh;
     color: white;
@@ -86,7 +87,7 @@ header{
     padding: 3px;
 }
 
-.reset {
+#resetButton {
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -101,11 +102,11 @@ header{
                 inset -5px -3px 3px rgba(0, 0, 0, 0.6);
 }
 
-.reset:hover {
+#resetButton:hover {
     background-color: limegreen;
 }
 
-.reset:active {
+#resetButton:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
